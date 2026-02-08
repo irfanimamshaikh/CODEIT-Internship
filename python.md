@@ -24,5 +24,3 @@ print(arr * 5)
 | **Sorting / Uniques**           | `np.sort()`, `np.argsort()`, `np.unique()`                                          | Sort arrays, get sorted indices, or unique elements                |
 
 
-# WHAT IS PANDAS ?
-
