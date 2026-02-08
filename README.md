@@ -120,9 +120,47 @@ with st.form("student_form"):
 ```
 streamlit run student_form.py
 ```
+# 📖 What is Matplotlib?
+---
+Matplotlib is a comprehensive plotting library for Python that enables creation of static, animated, and interactive visualizations. It's the foundation for most data visualization in Python's scientific ecosystem.
 
+# Installation of Matplotlib
 
+# Basic installation
+```
+pip install matplotlib
+```
+# With common data science stack
+```
+pip install matplotlib numpy pandas
+```
+# Using conda
+```
+conda install matplotlib
+```
 
+# My first plot
+```
+import matplotlib.pyplot as plt
+import numpy as np
+```
+# Create data
+```
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+```
+# Create plot
+```
+plt.figure(figsize=(10, 6))
+plt.plot(x, y, color='blue', linewidth=2, label='sin(x)')
+plt.title('Sine Wave')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.legend()
+plt.grid(True, alpha=0.3)
+plt.tight_layout()
+plt.show()
 
+```
 
 
