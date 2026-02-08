@@ -119,6 +119,50 @@ with st.form("student_form"):
 ```
 ```
 streamlit run student_form.py
+```
 
+
+# 🎨 Matplotlib: Python's Premier Visualization Library
+
+<div align="center">
+  
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.8%2B-green?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Downloads](https://img.shields.io/pypi/dm/matplotlib?style=for-the-badge&color=orange)
+
+*The foundational plotting library for scientific visualization in Python*
+
+</div>
+
+## 📋 Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Plot Types](#plot-types)
+- [Examples](#examples)
+- [Best Practices](#best-practices)
+- [Resources](#resources)
+
+## 🎯 Introduction
+
+**Matplotlib** is a comprehensive 2D plotting library for Python that provides:
+- Publication-quality figures in various formats (PNG, PDF, SVG, JPG)
+- A MATLAB-like interface for easy plotting
+- Object-oriented API for advanced customization
+- Support for LaTeX expressions in text
+
+### 🚀 Key Features
+- ✅ **Low-level control** over every plot element
+- ✅ **Interactive plots** in Jupyter notebooks
+- ✅ **3D plotting** capabilities
+- ✅ **Animation support**
+- ✅ **Seamless integration** with NumPy and Pandas
+
+## ⚡ Installation
+
+### Method 1: Using pip
+```bash
+pip install matplotlib
 
 
